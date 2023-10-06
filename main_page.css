@@ -2,7 +2,7 @@
     box-sizing: border-box;
     
 }
-header {
+.header {
     background-color: #EDEDE9;
     font-family: 'Raleway', sans-serif;
     color: black;
