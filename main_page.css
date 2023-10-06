@@ -1,13 +1,9 @@
 * {
     box-sizing: border-box;
-    
 }
-.header {
-    background-color: #EDEDE9;
+
+header {
     box-sizing: border-box;
-    
-}
-.header {
     background-color: #EDEDE9;
     font-family: 'Raleway', sans-serif;
     color: black;
@@ -34,42 +30,42 @@
     overflow: hidden;
     background-color: #113946;
     font-family: 'Raleway', sans-serif;
-  }
-  
-  /* Links inside the navbar */
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
-  
-  /* The dropdown container */
+
+    /* Links inside the navbar */
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+/* The dropdown container */
 .dropdown {
     float: left;
     overflow: hidden;
 }
-  
-  /* Dropdown button */
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-}
-  
-  /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #BCA37F;
-}
-  
-  /* Dropdown content (hidden by default) */
+
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+    }
+
+    /* Add a red background color to navbar links on hover */
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #BCA37F;
+    }
+
+/* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -78,29 +74,29 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-  
-  /* Links inside the dropdown */
-.dropdown-content a {
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-  
-  /* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #BCA37F;
-}
-  
-  /* Show the dropdown menu on hover */
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #BCA37F;
+        }
+
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 
-.description{
+.description {
     font-family: 'Raleway', sans-serif;
     width: 100%;
     margin-top: 13%;
@@ -115,7 +111,7 @@
 
 /* Barre de recherche */
 
-.search_bar{
+.search_bar {
     font-size: 1vw;
 }
 
@@ -132,7 +128,6 @@ form input[type=text] {
     float: left;
     font-size: 1vw;
     background: #f1f1f1;
-    
 }
 
 form button {
@@ -151,10 +146,10 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
-    background: #D6CCC2;
-}
-  
+    form button:hover {
+        background: #D6CCC2;
+    }
+
 form::after {
     content: "";
     clear: both;
@@ -162,33 +157,33 @@ form::after {
 }
 
 
-.name{
-    font-family:'Geologica', sans-serif;
+.name {
+    font-family: 'Geologica', sans-serif;
     position: absolute;
     bottom: 8px;
     left: 16px;
     font-size: 18px;
 }
 
-.date{
-    font-family:'Geologica', sans-serif;
+.date {
+    font-family: 'Geologica', sans-serif;
     position: absolute;
     bottom: 8px;
     right: 16px;
-    font-size: 18px;   
+    font-size: 18px;
 }
 
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    font-size: 50px;
-    width: 100%;
-    float: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    margin-bottom: 5px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
+font-family: 'Raleway', sans-serif;
+color: black;
+font-size: 50px;
+width: 100%;
+float: left;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+margin-bottom: 5px;
+box-sizing: border-box;
+border: 2px solid #ccc;
 }
 
 
@@ -203,42 +198,42 @@ form::after {
     overflow: hidden;
     background-color: #113946;
     font-family: 'Raleway', sans-serif;
-  }
-  
-  /* Links inside the navbar */
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
-  
-  /* The dropdown container */
+
+    /* Links inside the navbar */
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+/* The dropdown container */
 .dropdown {
     float: left;
     overflow: hidden;
 }
-  
-  /* Dropdown button */
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-}
-  
-  /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #BCA37F;
-}
-  
-  /* Dropdown content (hidden by default) */
+
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+    }
+
+    /* Add a red background color to navbar links on hover */
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #BCA37F;
+    }
+
+/* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -247,29 +242,29 @@ form::after {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-  
-  /* Links inside the dropdown */
-.dropdown-content a {
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-  
-  /* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #BCA37F;
-}
-  
-  /* Show the dropdown menu on hover */
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #BCA37F;
+        }
+
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 
-.description{
+.description {
     font-family: 'Raleway', sans-serif;
     width: 100%;
     margin-top: 13%;
@@ -284,7 +279,7 @@ form::after {
 
 /* Barre de recherche */
 
-.search_bar{
+.search_bar {
     font-size: 1vw;
 }
 
@@ -301,7 +296,6 @@ form input[type=text] {
     float: left;
     font-size: 1vw;
     background: #f1f1f1;
-    
 }
 
 form button {
@@ -320,10 +314,10 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
-    background: #D6CCC2;
-}
-  
+    form button:hover {
+        background: #D6CCC2;
+    }
+
 form::after {
     content: "";
     clear: both;
@@ -331,19 +325,18 @@ form::after {
 }
 
 
-.name{
-    font-family:'Geologica', sans-serif;
+.name {
+    font-family: 'Geologica', sans-serif;
     position: absolute;
     bottom: 8px;
     left: 16px;
     font-size: 18px;
 }
 
-.date{
-    font-family:'Geologica', sans-serif;
+.date {
+    font-family: 'Geologica', sans-serif;
     position: absolute;
     bottom: 8px;
     right: 16px;
-    font-size: 18px;   
+    font-size: 18px;
 }
-
