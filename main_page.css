@@ -146,9 +146,9 @@ form button {
     cursor: pointer;
 }
 
-    form button:hover {
-        background: #BCA37F;
-    }
+form button:hover {
+    background: #BCA37F;
+}
 
 form::after {
     content: "";
