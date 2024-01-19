@@ -119,27 +119,3 @@
     text-align: left;
     float: left;
 }
-
-
-
-
-
-
-/* Footer */
-
-.name{
-    font-family:'Geologica', sans-serif;
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size: 18px;
-}
-
-.date{
-    font-family:'Geologica', sans-serif;
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    font-size: 18px;   
-}
-
