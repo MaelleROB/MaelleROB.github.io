@@ -29,7 +29,7 @@ header {
   font-family: 'Raleway', sans-serif;
 }
 
-  /* Links inside the navbar */
+  /* Liens dans la barre de navigation */
   .navbar a {
       float: left;
       font-size: 16px;
@@ -39,13 +39,13 @@ header {
       text-decoration: none;
   }
 
-/* The dropdown container */
+/* Contenu du menu déroulant */
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
-  /* Dropdown button */
+  /* Bouton menu déroulant */
   .dropdown .dropbtn {
       font-size: 16px;
       border: none;
@@ -57,12 +57,12 @@ header {
       margin: 0; /* Important for vertical align on mobile phones */
   }
 
-  /* Add a red background color to navbar links on hover */
+  /* Change de couleur des liens dans la barre de navigation à l'approche du curseur */
   .navbar a:hover, .dropdown:hover .dropbtn {
       background-color: #BCA37F;
   }
 
-/* Dropdown content (hidden by default) */
+/* Contenu du menu déroulant (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -72,7 +72,7 @@ header {
   z-index: 1;
 }
 
-  /* Links inside the dropdown */
+  /* Liens dans le menu déroulant */
   .dropdown-content a {
       float: none;
       color: white;
@@ -82,12 +82,12 @@ header {
       text-align: left;
   }
 
-      /* Add a grey background color to dropdown links on hover */
+      /* Change la couleur des liens dans le menu déroulant à l'approche du curseur */
       .dropdown-content a:hover {
           background-color: #BCA37F;
       }
 
-/* Show the dropdown menu on hover */
+/* Fait apparaître le menu déroulant à l'approche du curseur */
 .dropdown:hover .dropdown-content {
   display: block;
 }
