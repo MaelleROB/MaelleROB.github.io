@@ -1,100 +1,106 @@
 * {
-    box-sizing: border-box;
-    
-}
-.header {
-    background-color: #EDEDE9;
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    font-size: 10px;
-    width: 100%;
-    float: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    margin-bottom: 5px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
+  box-sizing: border-box;
 }
 
+header {
+  background-color: #EDEDE9;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 10px;
+  width: 100%;
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+}
 
-/* Barre de navigation */
-
+  /* Barre de navigation*/
 .navbar {
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    overflow: hidden;
-    background-color: #113946;
-    font-family: 'Raleway', sans-serif;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+  background-color: #113946;
+  font-family: 'Raleway', sans-serif;
+}
+
+  /* Links inside the navbar */
+  .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
   }
-  
-  /* Liens barre de navigation */
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-  
-  /* Conteneur du menu déroulant */
+
+/* The dropdown container */
 .dropdown {
-    float: left;
-    overflow: hidden;
+  float: left;
+  overflow: hidden;
 }
-  
-  /* Bouton menu déroulant */
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Nécessaire pour ligne verticale sur mobile */
-    margin: 0; /* Nécessaire pour ligne verticale sur mobile */
-}
-  
-  /* Background colour hover, navbar */
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #BCA37F;
-}
-  
-  /* Contenu du menu déroulant (caché par défaut) */
+
+  /* Dropdown button */
+  .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit; /* Important for vertical align on mobile phones */
+      margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: #BCA37F;
+  }
+
+/* Dropdown content (hidden by default) */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #113946;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #113946;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
-  
-  /* Liens dans le menu déroulant */
-.dropdown-content a {
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-  
-  /* Background colour hover */
-.dropdown-content a:hover {
-    background-color: #BCA37F;
-}
-  
-  /* Fait apparaître le menu déroulant when hovering */
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+      float: none;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+
+      /* Add a grey background color to dropdown links on hover */
+      .dropdown-content a:hover {
+          background-color: #BCA37F;
+      }
+
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
+
 
 .description {
-    font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  margin-top: 1%;
 
+  text-align: left;
+  float: left;
+  padding: 10px;
+  font-size: 25px;
 }
+
